@@ -12,6 +12,9 @@ const Navbar = () => {
             <li>mobile-app</li>
             <li>contact us</li>
         </ul>
+        <div className='navbar-right'>
+          <img src={assets.search_icon} alt=''/>
+        </div>
     </div>
   )
 }
