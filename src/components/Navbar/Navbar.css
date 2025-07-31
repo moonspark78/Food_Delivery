@@ -15,3 +15,10 @@
     color: #49557e;
     font-size: 18px;
 }
+
+.navbar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
