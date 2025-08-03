@@ -13,8 +13,9 @@ const ExploreMenu = () => {
         <div className='explore-menu-list'>
             {menu_list.map((item, index) => {
                 return(
-                    <div>
-                        
+                    <div key={index} className='explore-menu-list-item'>
+                        <img src={item.menu_image} alt="" />
+                        <p>{item.menu_name}</p>
                     </div>
                 )
             })}
