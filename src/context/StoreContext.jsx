@@ -1,3 +1,7 @@
 import { createContext } from "react";
 
-export const StoreContext = createContext();
+export const StoreContext = createContext(null);
+
+const StoreContextProvider = ( props ) => {
+    const contextValue={}
+}
