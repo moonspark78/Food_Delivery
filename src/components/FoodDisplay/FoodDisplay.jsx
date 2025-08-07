@@ -8,7 +8,9 @@ const FoodDisplay = () => {
 
 
   return (
-    <div>FoodDisplay</div>
+    <div className='food-display' id='food-display'>
+        <h2>Meilleurs Plats près de chez vous</h2>
+    </div>
   )
 }
 
