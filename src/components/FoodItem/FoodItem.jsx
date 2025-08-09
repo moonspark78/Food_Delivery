@@ -1,9 +1,11 @@
 import React from 'react'
 import './FoodItem.css'
 
-const FoodItem = () => {
+const FoodItem = ({id,name,price,description,image}) => {
   return (
-    <div>FoodItem</div>
+    <div>
+
+    </div>
   )
 }
 
