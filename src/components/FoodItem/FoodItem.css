@@ -20,4 +20,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
+}
+
+.food-item-name-rating p{}
+
+.food-item-name-rating img{
+    width: 70px;
 }
