@@ -16,4 +16,8 @@
     padding: 20px
 }
 
-.food-item-name-rating{}
+.food-item-name-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
