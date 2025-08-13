@@ -10,7 +10,10 @@ const FoodItem = ({id,name,price,description,image}) => {
         <div className="food-item-img-container">
             <img className='food-item-image' src={image} alt={name}/>
             {!itemCount
-              ? <img src={assets.add_icon_white} onClick={} className='add'  alt="" />
+              ? <img src={assets.add_icon_white} onClick={() => setItemCount(prev=>prev+1)} className='add'  alt="" />
+              : <div className="food-item-counter">
+                
+              </div>
             }
         </div>
         <div className="food-item-info">
