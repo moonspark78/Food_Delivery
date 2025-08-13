@@ -12,9 +12,9 @@ const FoodItem = ({id,name,price,description,image}) => {
             {!itemCount
               ? <img src={assets.add_icon_white} onClick={() => setItemCount(prev=>prev+1)} className='add'  alt="" />
               : <div className="food-item-counter">
-                <img src={assets.remove_icon_red} alt="" />
+                <img src={assets.remove_icon_red} onClick={() => setItemCount(prev=>prev-1)} alt="" />
                 <p>{itemCount}</p>
-                
+                <img src={assets.add_icon_green} onClick={() => setItemCount(prev=>prev+1)} alt="" />
               </div>
             }
         </div>
